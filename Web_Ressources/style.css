@@ -29,7 +29,7 @@ li {
    background-color: #1F2039;
    
  }
- div {
+ header,footer {
    background-color: ghostwhite;
  }
  a {
@@ -37,4 +37,11 @@ li {
  }
  p,li,h2 {
    color:#f9f8ff;
+   background-color: blue;
  }
+ .degrade{
+   background: linear-gradient(90deg,#8E86B5,#ACAEED);
+   font-family: 'Montserrat';
+   color: floralwhite;
+ }
+ 
