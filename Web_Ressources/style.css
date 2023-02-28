@@ -1,8 +1,40 @@
 a {
   color: black ;
 }
-span {
+em {
   color :#A5B4FC;
-  font-size: 1.2em;
-  font-family: 'Roboto' , sans-serif;
+  font-style: normal;
+  
 }
+h1 {
+  font-size: 3.5 em;
+  color: #A5B4FC;
+  font-family: 'Montserrat';
+}
+p {
+  font-size: 1.1em;
+  font-family: 'Manrope';
+  text-align: justify;
+}
+li {
+  font-size: 1em;
+  font-family: 'Manrope';
+}
+ a {
+   text-decoration: none;
+   font-size: 1em;
+   font-family: 'Manrope'
+ }
+ body {
+   background-color: #1F2039;
+   
+ }
+ div {
+   background-color: ghostwhite;
+ }
+ a {
+   color :#242424;
+ }
+ p,li,h2 {
+   color:#f9f8ff;
+ }
