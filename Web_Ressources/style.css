@@ -22,11 +22,11 @@ li {
    color:black;
    text-decoration: none;
    font-size: 1em;
-   font-family: 'Manrope'
+  /* font-family: 'Manrope'*/
  }
  body {
    background-color: #1F2039;
-   font-family: 'Manrope'
+   font-family: 'Manrope', sans-serif;
    
  }
  header,footer {
@@ -39,8 +39,8 @@ li {
    color:#f9f8ff;
   
  }
- .degrade{
-   background: linear-gradient(#8E86B5,#ACAEED);
+ .cta{
+   background: linear-gradient(#8e86b5,#acaeed);
    font-family: 'Montserrat';
    color: floralwhite;
  }
