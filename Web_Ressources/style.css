@@ -17,20 +17,25 @@ p {
 li {
   font-size: 1em;
   font-family: 'Manrope';
+  
 }
  a {
    color:black;
    text-decoration: none;
    font-size: 1em;
   /* font-family: 'Manrope'*/
+  
  }
  body {
    background-color: #1F2039;
    font-family: 'Manrope', sans-serif;
    
+    
+   
  }
  header,footer {
    background-color: ghostwhite;
+ 
  }
  a {
    color :#242424;
@@ -43,5 +48,9 @@ li {
    background: linear-gradient(#8e86b5,#acaeed);
    font-family: 'Montserrat';
    color: floralwhite;
+   border-radius:50px;
  }
- 
+ .competence {
+   border-bottom: 1px #A5B4FC solid;
+   border-right:  1px #A5B4FC solid;
+ }
