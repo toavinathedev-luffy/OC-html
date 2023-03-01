@@ -1,10 +1,35 @@
-
-em {
-  color :#A5B4FC;
-  font-style: normal;
-  
+/*les classes*/
+ .cta{
+   background: linear-gradient(#8e86b5,#acaeed);
+   /*font-family: 'Montserrat';*/
+   color: black;
+   border-radius:50px;
+   
+ }
+ .cta:hover{
+background: linear-gradient(#696484,#8788ba);
+text-decoration: none;
 }
-h1 {
+ .competence {
+   border-bottom: 1px #A5B4FC solid;
+   border-right:  1px #A5B4FC solid;
+ }
+ 
+/*squelette*/
+body {
+   background-color: #1F2039;
+   font-family: 'Manrope', sans-serif;
+ }
+ header,footer {
+   background-color: ghostwhite;
+ 
+ }
+ footer a img:hover, header a img:hover {
+   opacity: 0.5;
+ }
+ 
+ /*texte*/
+ h1 {
   font-size: 3.5 em;
   color: #A5B4FC;
   font-family: 'Montserrat';
@@ -17,44 +42,27 @@ p {
 li {
   font-size: 1em;
   font-family: 'Manrope';
+  }
+  p,li,h2 {
+   color:#f9f8ff;
+  
+ }
+ 
+/*type inline balise*/
+em {
+  color :#A5B4FC;
+  font-style: normal;
   
 }
- a {
+
+a {
    color:black;
    text-decoration: none;
    font-size: 1em;
   /* font-family: 'Manrope'*/
-  
- }
- body {
-   background-color: #1F2039;
-   font-family: 'Manrope', sans-serif;
-   
-    
-   
- }
- header,footer {
-   background-color: ghostwhite;
+  }
  
- }
- a {
-   color :#242424;
-   
- }
  a:hover {
    text-decoration: underline ;
  }
- p,li,h2 {
-   color:#f9f8ff;
-  
- }
- .cta{
-   background: linear-gradient(#8e86b5,#acaeed);
-   font-family: 'Montserrat';
-   color: floralwhite;
-   border-radius:50px;
- }
- .competence {
-   border-bottom: 1px #A5B4FC solid;
-   border-right:  1px #A5B4FC solid;
- }
+ 
