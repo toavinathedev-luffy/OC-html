@@ -1,18 +1,24 @@
 /*les classes*/
+* {
+  margin :0;
+}
  .cta{
    background: linear-gradient(#8e86b5,#acaeed);
    /*font-family: 'Montserrat';*/
    color: black;
    border-radius:50px;
+   padding: 20px 30px;
    
  }
  .cta:hover{
 background: linear-gradient(#696484,#8788ba);
 text-decoration: none;
+
 }
  .competence {
    border-bottom: 1px #A5B4FC solid;
    border-right:  1px #A5B4FC solid;
+   padding: 50px;
  }
  
 /*squelette*/
@@ -22,10 +28,20 @@ body {
  }
  header,footer {
    background-color: ghostwhite;
+   padding : 20px 50px ;
+   border : 5px #000 solid;
+   
  
  }
- nav a img:hover, nav a img:hover {
+ a img:hover, a img:hover {
    opacity: 0.5;
+ }
+ section {
+   padding: 80px;
+ }
+ .a_propos_main{
+   width: 50%;
+   margin: auto;
  }
  
  /*texte*/
@@ -60,7 +76,11 @@ a {
    text-decoration: none;
    font-size: 1em;
   /* font-family: 'Manrope'*/
-  }
+}
+.competence h2,.competence ul{
+  
+  margin-top:30px;
+}
  
  a:hover {
    text-decoration: underline ;
