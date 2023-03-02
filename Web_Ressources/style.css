@@ -24,7 +24,7 @@ body {
    background-color: ghostwhite;
  
  }
- footer a img:hover, header a img:hover {
+ nav a img:hover, nav a img:hover {
    opacity: 0.5;
  }
  
