@@ -92,3 +92,6 @@ footer {
     flex-wrap: wrap;
     gap:15px;
 }
+.project-picture img {
+  width: 30%;
+}
