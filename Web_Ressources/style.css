@@ -1,88 +1,87 @@
-/*les classes*/
-* {
-  margin :0;
+*{
+  margin: 0;
 }
- .cta{
-   background: linear-gradient(#8e86b5,#acaeed);
-   /*font-family: 'Montserrat';*/
-   color: black;
-   border-radius:50px;
-   padding: 20px 30px;
-   
- }
- .cta:hover{
-background: linear-gradient(#696484,#8788ba);
-text-decoration: none;
 
-}
- .competence {
-   border-bottom: 1px #A5B4FC solid;
-   border-right:  1px #A5B4FC solid;
-   padding: 50px;
- }
- 
-/*squelette*/
 body {
-   background-color: #1F2039;
-   font-family: 'Manrope', sans-serif;
- }
- header,footer {
-   background-color: ghostwhite;
-   padding : 20px 50px ;
-   border : 5px #000 solid;
-   
- 
- }
- a img:hover, a img:hover {
-   opacity: 0.5;
- }
- section {
-   padding: 80px;
- }
- .a_propos_main{
-   width: 50%;
-   margin: auto;
- }
- 
- /*texte*/
- h1 {
-  font-size: 3.5 em;
-  color: #A5B4FC;
-  font-family: 'Montserrat';
-}
-p {
-  font-size: 1.1em;
-  font-family: 'Manrope';
-  text-align: justify;
-}
-li {
+  font-family: 'Manrope', sans-serif;
   font-size: 1em;
-  font-family: 'Manrope';
-  }
-  p,li,h2 {
-   color:#f9f8ff;
-  
- }
- 
-/*type inline balise*/
-em {
-  color :#A5B4FC;
-  font-style: normal;
-  
+  background-color: #1f2039;
 }
 
 a {
-   color:black;
-   text-decoration: none;
-   font-size: 1em;
-  /* font-family: 'Manrope'*/
+  color: #242424;
+  text-decoration: none;
 }
-.competence h2,.competence ul{
-  
-  margin-top:30px;
+
+em {
+  color: #a5b4fc;
+  font-style: normal;
 }
- 
- a:hover {
-   text-decoration: underline ;
- }
- 
+
+h1 {
+  font-size: 3.5em;
+  color: #a5b4fc;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: #f9f8ff;
+}
+
+p,
+li {
+  font-size: 1.1em;
+  color: #f9f8ff;
+}
+
+header,
+footer {
+  background-color: white;
+  padding: 20px 50px;
+}
+
+.cta {
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
+  border-radius: 50px;
+  padding: 20px 30px;
+}
+.parag-Intro{
+  margin:25px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.cta:hover {
+  background: linear-gradient(#696484, #8788ba);
+  text-decoration: none;
+}
+
+.lien-icone:hover {
+  opacity: 0.5;
+}
+
+.carre-contenu {
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+  padding: 50px;
+}
+
+.carre-contenu h2 {
+  margin-top: 30px;
+}
+
+.carre-contenu ul {
+  margin-top: 30px;
+}
+
+section {
+  padding: 80px;
+}
+
+.a-propos-main {
+  width: 50%;
+  margin: auto;
+}
