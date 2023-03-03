@@ -85,7 +85,10 @@ footer {
   flex-direction:row;
   justify-content: space-around;
   }
-.project-picture{
-  margin-top: 10px;
-  
+.project .project-picture{
+    display: flex;
+    margin-top: 10px;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap:15px;
 }
