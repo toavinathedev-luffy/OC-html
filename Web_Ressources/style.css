@@ -80,3 +80,9 @@ footer {
     justify-content: space-between;
     align-items: center;
   }
+  .introduction{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    
+  }
